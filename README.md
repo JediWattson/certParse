@@ -1,6 +1,6 @@
 # certParse
 use for creating keys with sql on google cloud, no copy and paste, just pipe with python
-
+```python
 import sys
 import json
 
@@ -28,3 +28,4 @@ else:
 sc.close()
 cc.close()
 cp.close()
+```
